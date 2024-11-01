@@ -1,5 +1,5 @@
 locals {
-  region = "us-east-1"
+  region = "ap-southeast-1"
   name   = "amonkincloud-cluster"
   vpc_cidr = "10.123.0.0/16"
   azs      = ["us-east-1a", "us-east-1b"]
@@ -12,5 +12,5 @@ locals {
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = "ap-southeast-1"
 }
